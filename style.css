@@ -60,15 +60,12 @@ input[type=submit] {
 }
 
 input:hover, input:active, input:focus {border: 1px #56b8a3 solid;}
-
 input[type=submit]:hover {border: none; background-color: #56b8a3;}
 
 #submit-form label {font-size: 0.875rem; color: #555; margin-top: 20px;}
 
 .content-home a, .content-home a:visited {color: black;}
 .content-home #email-link:hover {opacity: 0.5;}
-
-
 
 .abs {position: absolute;}
 .rel {position: relative;}
