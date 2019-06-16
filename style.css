@@ -1,0 +1,113 @@
+/* global */
+
+body {background: #f4f8f8; color: #555; overflow-x: hidden;}
+
+/* content */
+
+header {height: 5px; padding-top: 10px; box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover; border: 0;}
+#header-home {background-image: url('img/border-01.png');}
+#section-1 {background-image: url('img/letter-g.png'); background-position: right; background-repeat: no-repeat; background-size: ; border: 0;}
+#nav {margin-top: 60px;}
+#intro-quote h1 {font-size: 3.5rem; font-style: italic; font-weight: normal; line-height: 1.2; text-indent: -1rem;}
+#first-letter p::first-letter {font-size: 250%;}
+.floating-images img {position: absolute;}
+
+header h1 {margin-top: 50px; font-weight: bold;}
+.women-img {max-width: 100%;}
+#cta-para {background-color: #f49090; color: white; padding: 30px 50px; font-size: 1.25rem;}
+#cta-para-2 {background-color: #eaeeea; padding: 10px 50px;}
+
+#letter-w {}
+#letter-g {right: -250%;}
+#letter-p {left: -75%;}
+#greatwomen-07 {margin-top: -50px;}
+#greatwomen-06 {margin-top: -20px;}
+#greatwomen-05 {top: -400px;}
+#before-letter-p {top: -200px;}
+
+#if-you {margin-top: 100px;}
+#submit-form {top: -100px;}
+#ending-para {margin-top: -300px;}
+
+.content-home {margin-top: 200px;}
+.content-home h2, .content-home h3 {font-weight: bold;}
+.content-home p + p {padding-top: 25px;}
+.content-home + .content-home {margin-top: 150px;}
+
+input {font-family: 'PT Serif', serif;}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 10px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: block;
+	border: 1px lightgray solid;
+	box-sizing: border-box;
+	background-color: #f4f8f8;
+	outline: none;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #12a58c;
+	color: white;
+	padding: 14px 20px;
+	margin-top: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 999px;
+}
+
+input:hover, input:active, input:focus {border: 1px #56b8a3 solid;}
+
+input[type=submit]:hover {border: none; background-color: #56b8a3;}
+
+#submit-form label {font-size: 0.875rem; color: #555; margin-top: 20px;}
+
+.content-home a, .content-home a:visited {color: black;}
+.content-home #email-link:hover {opacity: 0.5;}
+
+
+
+.abs {position: absolute;}
+.rel {position: relative;}
+.rwd-images {width:100%; position: relative; z-index: -9;}
+
+/* footer */
+
+footer {position: relative; top: -200px; padding-bottom: -250px;}
+footer p {font-size: 0.7rem; color: #aaa;}
+#footer-home {
+	height: 5px; padding-top: 10px; box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover; border: 0;
+	background-image: url('img/border-02.png');
+}
+
+/* responsive 1200, 960, 720, 540 */
+@media only screen and (max-width: 1350px) {
+	#submit-form {margin-top: 100px;}
+}
+
+@media only screen and (max-width: 1200px) {
+	#ending-para {margin-top: -200px;}
+	footer {top: -100px;}
+}
+
+@media only screen and (max-width: 960px) { /* 960px */
+	.hidden-sm {display: none;}
+	.container {width: 80%;}
+	.col-05, .col-1, .col-15, .col-2, .col-25, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10 {width: 100%;}
+	.container .rwd-images {width: 75%;}
+	#letter-w {display: none;}
+	#letter-g {right: -50%;}
+	#greatwomen-07, #greatwomen-06 {margin: 100px auto 0; display: block;}
+	#submit-form {margin-top: 150px;}
+	#greatwomen-05 {display: none;}
+	#ending-para {margin-top: -500px;}
+	footer {top: -100px;}
+}
+
+@media only screen and (max-width: 720px) {
+	#ending-para {margin-top: -300px;}
+	footer {top: 0px; padding-bottom: 50px;}
+}
