@@ -69,11 +69,19 @@ input[type=submit]:hover {border: none; background-color: #56b8a3;}
 
 .abs {position: absolute;}
 .rel {position: relative;}
-.rwd-images {width:100%; position: relative; z-index: -9;}
+.rwd-images {
+	/* width:100%; */
+	position: relative;
+	z-index: -9;
+}
 
 /* footer */
 
-footer {position: relative; top: -200px; padding-bottom: -250px;}
+footer {
+	position: relative;
+	/* top: -200px; */
+	padding-bottom: 50px;
+}
 footer p {font-size: 0.7rem; color: #aaa;}
 #footer-home {
 	height: 5px; padding-top: 10px; box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover; border: 0;
